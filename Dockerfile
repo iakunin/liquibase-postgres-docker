@@ -1,5 +1,4 @@
-FROM kilna/liquibase
-LABEL maintainer="Kilna kilna@kilna.com"
+FROM iakunin/liquibase:3.8.9
 
 ARG jdbc_driver_version
 ENV jdbc_driver_version=${jdbc_driver_version:-42.1.4}\
